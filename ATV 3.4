@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      
+        Console.Write("Digite um número: ");
+        float num1 = float.Parse(Console.ReadLine());
+        Console.Write("Digite outro número: ");
+        float num2 = float.Parse(Console.ReadLine());
+        Console.Write("Digite outro número: ");
+        float num3 = float.Parse(Console.ReadLine());
+        if (num1 < num2 && num1 > num3){
+             Console.WriteLine("{0} é menor que {1} e maior que {2}", num1, num2, num3);}
+            else{
+             Console.WriteLine("Não satisfaz as condições.");}
+        
+        
+       
+    }
+}
