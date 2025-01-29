@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      
+        Console.Write("Digite um número decimal: ");
+        float num1 = float.Parse(Console.ReadLine());
+        Console.Write("Digite outro número decimal: ");
+        float num2 = float.Parse(Console.ReadLine());
+       
+        if (num1 <= num2){
+             Console.WriteLine("{0} é menor ou igual a {1}", num1, num2);}
+            else{
+             Console.WriteLine("{0} é maior que {1}", num1, num2);}
+        
+        
+       
+    }
+}
